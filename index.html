@@ -1,9 +1,52 @@
+
+
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <title>About Pages</title>
-    </head>
-  <body>
-    <h2>Hello World</h2>
-   </body>
-  </html>
+<head>
+    <meta charset="utf-8" />
+    <title>About</title>
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    <link href="assets/sti.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="assets/waifu.min.css?v=1.4.2"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-image: url(assets/bg/bg.jpg);height:100vh;width:100vw; display:flex;align-items:center;justify-content:center;flex-wrap:wrap">
+<div style="width:500px;max-width:100vw">
+    <div style="background-color:rgba(72, 66, 61,0.7);border-radius:10px;padding:20px;margin-bottom:20px">
+        <h1>Hi! Domath Here!</h1>
+       <br>
+         <br>
+         Hello World
+    </div>
+    
+    <a class="btnGenericText" href="/">Github</a>
+    <a href="/" class="btnGenericText">Blog</a>
+    <a href="/" class="btnGenericText">Twitter</a>
+    </div>
+</div>
+<script src="assets/jquery.min.js?v=3.3.1"></script>    
+    <script src="assets/jquery-ui.min.js?v=1.12.1"></script>
+    <div class="waifu">
+        <div class="waifu-tips"></div>
+        <canvas id="live2d" class="live2d"></canvas>    
+    <script src="assets/waifu-tips.min.js?v=1.4.2"></script>
+    <script src="assets/live2d.min.js?v=1.0.5"></script>
+    <script type="text/javascript">
+        live2d_settings['modelId'] = 1;             
+        live2d_settings['modelTexturesId'] = 87;      
+        live2d_settings['modelStorage'] = false;        
+        live2d_settings['canCloseLive2d'] = false;      
+        live2d_settings['canTurnToHomePage'] = false;    
+        live2d_settings['waifuSize'] = '600x535';        
+        live2d_settings['waifuTipsSize'] = '570x150';    
+        live2d_settings['waifuFontSize'] = '30px';     
+        live2d_settings['waifuToolFont'] = '36px';    
+        live2d_settings['waifuToolLine'] = '50px';      
+        live2d_settings['waifuToolTop'] = '-60px';     
+        live2d_settings['waifuDraggable'] = 'axis-x';    
+        initModel("assets/waifu-tips.json?v=1.4.2")
+    </script>
+</body>
+</html>
