@@ -1,4 +1,3 @@
-
 !
 function(t) {
 	function i(r) {
