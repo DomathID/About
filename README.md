@@ -1,2 +1,2 @@
 # About
-:octocat: About 
+:octocat: About Pages
