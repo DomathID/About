@@ -26,7 +26,7 @@
         },
         "referrer_hostname": {
             "example.com": ["示例网站"],
-            "www.fghrsh.net": ["FGHRSH 的博客"]
+            "www.nekoi.eu.org": ["Nekoi 的博客"]
         },
         "model_message": {
             "1": ["来自 Potion Maker 的 Pio 酱 ~"],
