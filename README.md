@@ -1,8 +1,7 @@
 ### About
-:octocat: About Page with Live2D Model
+:octocat: The source code for the Nekoi Website, to expand and share.
 
 ### Preview 
-<a href="https://domathid.github.io/live2dWaifu"><img src="https://img.shields.io/badge/Code-Preview-blue.svg"></a>
-
+[**PREVIEW**](https://www.nekoi.eu.org)
 
 
