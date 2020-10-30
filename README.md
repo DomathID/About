@@ -5,5 +5,7 @@
 
 ### Preview 
 [**PREVIEW**](https://www.nekoi.eu.org)
+### Other Model
+<a href="https://github.com/domathid/live2d-model#readme"><b>HERE</b></a>
 
 
