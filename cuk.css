@@ -1,0 +1,9 @@
+@font-face{
+font-family:"TeX Gyre Bonum Bold";
+src:url("/fonts/font-nya.otf");
+}
+body {
+font-family: 'TeX Gyre Bonum Bold',serif;f
+font-size: 1.6em;
+}
+
